@@ -1,5 +1,7 @@
 # Claim & Evidence Benchmark
 
+**[▶ Open the live Streamlit application](https://claim-evidence-benchmark-2zt5msc2lnqbk7rbgopyd5.streamlit.app/)**
+
 [![Python Tests](https://github.com/kolawolepeter65-ai/claim-evidence-benchmark/actions/workflows/tests.yml/badge.svg)](https://github.com/kolawolepeter65-ai/claim-evidence-benchmark/actions/workflows/tests.yml)
 
 An evidence-aware AI evaluation portfolio project featuring transparent lexical retrieval, conservative abstention, a synthetic challenge dataset, pytest tests, Docker, and an interactive Streamlit review tool.
@@ -14,7 +16,9 @@ An evidence-aware AI evaluation portfolio project featuring transparent lexical 
 **Limitations:** Not an autonomous fact checker, external-source verifier, or natural-language inference classifier. Similarity is **not** factual confidence; potential contradiction and paraphrase entailment are not decided automatically.
 
 ## Live demo
-To deploy on [Streamlit Community Cloud](https://share.streamlit.io/), choose repository `kolawolepeter65-ai/claim-evidence-benchmark`, branch `main`, and entry point `app.py`. Add the resulting live URL here.
+The live demo is available at [Claim & Evidence Benchmark](https://claim-evidence-benchmark-2zt5msc2lnqbk7rbgopyd5.streamlit.app/).
+
+To deploy your own copy on [Streamlit Community Cloud](https://share.streamlit.io/), choose repository `kolawolepeter65-ai/claim-evidence-benchmark`, branch `main`, and entry point `app.py`.
 
 ## Local setup
 ```bash
