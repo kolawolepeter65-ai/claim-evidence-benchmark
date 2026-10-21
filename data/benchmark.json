@@ -1,0 +1,74 @@
+[
+  {
+    "id": "EX-001",
+    "claim": "Mercury is the closest planet to the Sun.",
+    "gold_label": "supported",
+    "sources": [
+      {
+        "id": "astro-01",
+        "text": "Mercury is the closest planet to the Sun."
+      }
+    ],
+    "note": "Synthetic exact support"
+  },
+  {
+    "id": "EX-002",
+    "claim": "Venus is the closest planet to the Sun.",
+    "gold_label": "contradicted",
+    "sources": [
+      {
+        "id": "astro-02",
+        "text": "Mercury is the closest planet to the Sun."
+      }
+    ],
+    "note": "Substitution cannot be resolved by overlap alone"
+  },
+  {
+    "id": "EX-003",
+    "claim": "Mars has liquid oceans on its surface today.",
+    "gold_label": "insufficient",
+    "sources": [
+      {
+        "id": "astro-03",
+        "text": "Mars has polar ice caps and an atmosphere composed mostly of carbon dioxide."
+      }
+    ],
+    "note": "Relevant topic but absent asserted evidence"
+  },
+  {
+    "id": "EX-004",
+    "claim": "A quarterly report showed revenue increased by 18 percent.",
+    "gold_label": "supported",
+    "sources": [
+      {
+        "id": "finance-01",
+        "text": "A quarterly report showed revenue increased by 18 percent."
+      }
+    ],
+    "note": "Synthetic financial report"
+  },
+  {
+    "id": "EX-005",
+    "claim": "The company had no operating losses.",
+    "gold_label": "contradicted",
+    "sources": [
+      {
+        "id": "finance-02",
+        "text": "The company reported operating losses for the period."
+      }
+    ],
+    "note": "Negation sensitive"
+  },
+  {
+    "id": "EX-006",
+    "claim": "The product has a two-year warranty.",
+    "gold_label": "insufficient",
+    "sources": [
+      {
+        "id": "product-01",
+        "text": "The product includes complimentary delivery and technical support."
+      }
+    ],
+    "note": "Feature not stated"
+  }
+]
